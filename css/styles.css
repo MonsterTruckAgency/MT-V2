@@ -1,0 +1,145 @@
+a, li{
+	text-decoration: none;
+	color:unset;
+}
+
+body{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+img{
+	max-width: 40%;
+}
+header{
+	position:relative;
+	padding-top: 5%;
+	width:100%;
+	text-align: center;
+	
+}
+
+header div{
+
+	text-align: center;
+}
+
+nav{
+	position:absolute;
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+	width:20%;
+	top:5%;
+	right:0;
+	text-align: left;
+	font-weight: 200;
+
+}
+
+nav a {
+	padding:10%;
+	display: inline-block;
+}
+
+h1 span:first-child{
+	font-weight:900;
+	
+	
+}
+
+header div:first-child{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+header div:first-child > span{
+	display: block;
+}
+
+h1{
+	position:absolute;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width:100%;
+	align-items: space-around;
+	
+	
+}
+
+h1 > span{
+	display: inline-block;
+	font-size: 4vw;
+	padding-right: 29%;
+
+	
+}
+
+h1>span:first-of-type{
+	padding-left: 20%;
+	padding-top: 12%;
+	padding-bottom: 5%;
+	
+}
+h1>span span:last-of-type{
+	display: block;
+	padding-top: 5%;
+
+}
+
+.parisagency{
+	align-self: flex-end;
+	display: inline-block;
+	align-content: flex-end;
+	font-weight: bolder;
+	margin-left:50%;
+	display: inline-block;
+	align-self: center;
+	padding-left: 20%;
+
+
+	
+}
+
+.parisagency:last-of-type{
+	font-size: 1.2em;
+	text-align: center;
+	display: inline-block;
+	align-content: center;
+	border-top:1px solid black;
+	padding-top: 1vw;
+	margin-top: 1vw;
+	font-family: 'Roboto',sans-serif;
+	padding-right: 21%;
+    align-self: flex-start;
+	padding-left: 0;
+		
+}
+
+h2{
+	margin-top: 10%;
+	width: unset;
+	display: inline-block;
+	text-align: left;
+	font-family: 'Roboto',sans-serif;
+	font-weight: 100;
+	line-height: 2;
+	letter-spacing: 1px;
+	font-size: 17px;
+	
+
+
+}
+.red{
+	color:#f71f55;
+}
+span{
+	text-align: left;
+}
+
+
+
